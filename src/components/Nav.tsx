@@ -62,7 +62,7 @@ export default function Nav({ links }: { links: ILink[] }) {
       {/* Menu open: "block", Menu closed: "hidden" */}
       <div className={`md:hidden ${showMenu ? 'block' : 'hidden'}`}>
         <div
-          className={`top-0 right-0 w-[70vw] bg-overlay pt-8 pl-4 text-yellow-600 fixed h-full z-40  ease-in-out duration-300 ${
+          className={`top-0 right-0 w-[70vw] bg-overlay pt-8 pl-4 text-white fixed h-full z-40  ease-in-out duration-300 ${
             showMenu ? 'translate-x-0 ' : 'translate-x-full'
           }`}
         >
