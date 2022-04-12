@@ -34,15 +34,6 @@ export default function Nav({ links }: { links: ILink[] }) {
                 >
                   {link.text}
                 </div>
-                // <Link
-                //   key={link.text}
-                //   to={link.to}
-                //   className={`text-primary px-3 py-2 text-sm font-bold lowercase ${
-                //     location.pathname === link.to ? activeClass : inactiveClass
-                //   } ${i > 0 && 'ml-4'}`}
-                // >
-                //   {link.text}
-                // </Link>
               ))}
             </div>
           </div>
@@ -71,7 +62,7 @@ export default function Nav({ links }: { links: ILink[] }) {
       {/* Menu open: "block", Menu closed: "hidden" */}
       <div className={`md:hidden ${showMenu ? 'block' : 'hidden'}`}>
         <div
-          className={`top-0 right-0 w-[70vw] bg-overlay pt-8 pl-4 text-white fixed h-full z-40  ease-in-out duration-300 ${
+          className={`top-0 right-0 w-[70vw] bg-overlay pt-8 pl-4 text-yellow-600 fixed h-full z-40  ease-in-out duration-300 ${
             showMenu ? 'translate-x-0 ' : 'translate-x-full'
           }`}
         >
@@ -85,15 +76,6 @@ export default function Nav({ links }: { links: ILink[] }) {
             >
               {link.text}
             </div>
-            // <Link
-            //   key={link.text}
-            //   to={link.to}
-            //   className={`block px-3 py-2 text-xs font-bold lowercase ${
-            //     location.pathname === link.to ? activeClass : inactiveClass
-            //   } ${i > 0 && 'mt-1'}`}
-            // >
-            //   {link.text}
-            // </Link>
           ))}
         </div>
       </div>

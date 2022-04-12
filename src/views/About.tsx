@@ -4,7 +4,7 @@ export default function About({ section }: ISection) {
   return (
     <div className="flex flex-col px-5 py-6 md:px-44 md:py-28" ref={section}>
       <h2
-        className={`text-5xl font-normal underline capitalize font-cursive text-red-title text-center py-5`}
+        className={`text-5xl font-normal underline capitalize font-cursive text-red-title text-center py-4`}
       >
         About us
       </h2>

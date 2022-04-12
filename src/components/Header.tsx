@@ -3,10 +3,10 @@ import Avatar from './Avatar';
 
 export default function Header() {
   return (
-    <div className="py-20 bg-sudsy-image md:bg-iron-image bg-cover bg-no-repeat md:h-[40vw] md:max-h-[40vw]">
+    <div className="py-28 bg-sudsy-image md:bg-iron-image bg-cover bg-no-repeat md:h-[50vw] md:max-h-[50vw]">
       <div className="container mx-auto px-2 md:px-6">
         <div className="flex flex-col items-center -mt-10 md:items-end md:mt-16 md:mr-96">
-          <div className="flex md:flex-col gap-1 md:gap-3 mb-2 md:mb-12">
+          <div className="flex md:flex-col gap-1 md:gap-3 mb-4 md:mb-12">
             <h2 className="font-cursive text-white text-2xl md:text-7xl">
               Looking for the
             </h2>
