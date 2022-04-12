@@ -33,7 +33,7 @@ function App() {
 
   return (
     <>
-      {/* <ScrollToTop /> */}
+      <ScrollToTop />
       <Nav links={links} />
       <Home section={HOME} />
       <About section={ABOUT} />
@@ -42,15 +42,6 @@ function App() {
       <Contact section={CONTACT} />
       <JoinUs section={JOINUS} />
       <Footer />
-
-      {/* <Routes>
-        <Route path={ROUTES.HOME} element={<Home />} />
-        <Route path={ROUTES.ABOUT} element={<About />} />
-        <Route path={ROUTES.SERVICES} element={<Services />} />
-        <Route path={ROUTES.JOINUS} element={<JoinUs />} />
-        <Route path={ROUTES.FAQS} element={<FAQ />} />
-        <Route path={ROUTES.CONTACT} element={<Contact />} />
-      </Routes> */}
     </>
   );
 }
